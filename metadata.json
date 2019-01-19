@@ -1,0 +1,9 @@
+{
+    "uuid": "upower-indicator@genderquery.gitlab.com",
+    "shell-version": [
+        "3.22.3"
+    ],
+    "name": "UPower Indicator",
+    "description": "Adds an indicator to the panel with a menu that lists all battery-powered devices",
+    "url": "https://gitlab.com/genderquery/upower-indicator"
+}

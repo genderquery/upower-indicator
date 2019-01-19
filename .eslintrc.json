@@ -1,0 +1,41 @@
+{
+    "root": true,
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "env": {
+        "es6": true
+    },
+    "globals": {
+        "imports": false,
+        "global": false,
+        "log": false,
+        "logError": false,
+        "print": false,
+        "printerr": false,
+        "_": false,
+        "C_": false,
+        "ngettext": false,
+        "N_": false
+    },
+    "rules": {
+        "max-len": [
+            "error",
+            {
+                "code": 80,
+                "comments": 80
+            }
+        ],
+        "indent": ["error", 4],
+        "brace-style": ["error", "1tbs"],
+        "space-before-function-paren": ["error", "never"],
+        "keyword-spacing": ["error", {
+            "before": true,
+            "after": true
+        }],
+        "no-unused-vars": ["error", {
+            "argsIgnorePattern": "^_"
+        }]
+    }
+}
