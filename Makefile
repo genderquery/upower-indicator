@@ -1,4 +1,4 @@
-EXTENSION_NAME=upower-indicator@stoatly.com
+EXTENSION_NAME=upower-indicator@genderquery.gitlab.com
 INSTALL_PATH=${HOME}/.local/share/gnome-shell/extensions
 
 .PHONY: all build install uninstall enable disable reload clean docs

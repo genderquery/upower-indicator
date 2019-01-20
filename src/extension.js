@@ -2,7 +2,7 @@ const Main = imports.ui.main;
 
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension()
-const UPowerIndicator = Me.imports.indicator;
+const UPowerIndicator = Me.imports.indicator.UPowerIndicator;
 
 
 let _indicator = null;
